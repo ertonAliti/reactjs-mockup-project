@@ -1,0 +1,40 @@
+.oneFavBreed{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.displayFavorites{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgb(139, 139, 139);
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+
+.cardFavImage{
+    padding: 5%;
+    width: 90%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+.cardButton-delete{
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* font-size: 16px; */
+    margin: 10px 40px;
+    cursor: pointer;
+}
